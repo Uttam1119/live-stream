@@ -7,7 +7,7 @@ import SearchBar from './searchBar';
 import TrailingItems from './trailingItems';
 import { Button } from '../button/button';
 
-export default function NavigationBar() {
+export default function navigationBar() {
   return (
     <header>
       <nav className='w-full flex text-black items-center justify-between bg-white p-2 border-b border-slate-300'>
