@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Tables } from '@/database/database.types';
 import { redirect } from 'next/navigation';
 import { categories } from '@/lib/types/category';
-// import Badge from './badge';
+import Badge from './badge';
 
 export default function HomeFeed({
   livestreams,
