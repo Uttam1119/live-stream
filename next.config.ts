@@ -16,6 +16,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'thispersondoesnotexist.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.google.com',
+      },
     ],
   },
 };
